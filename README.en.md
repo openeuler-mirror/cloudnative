@@ -10,6 +10,9 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 - Responsible for the planning, maintenance, and upgrade of cloud-native-related packages
 - Respond to user feedback from software within the SIG group in a timely manner to resolve related issues
 
+## SIG Documents
+- [Documents](docs/README.md)
+
 # SIG Meetings
 - Every Tuesday from 4:00-5:30 p.m
 - Declare the issue by mail
