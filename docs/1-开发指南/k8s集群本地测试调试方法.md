@@ -50,7 +50,7 @@ sysctl -p /etc/sysctl.d/k8s.conf
 # 查看是否生效
 cat /proc/sys/net/bridge/bridge-nf-call-ip6tables
 1
-cat /proc/sys/net/bridge/bridge-nf-call-iptable
+cat /proc/sys/net/bridge/bridge-nf-call-iptables
 1
 
 # 关闭系统swap
@@ -117,6 +117,8 @@ systemctl daemon-reload && systemctl restart isulad
 #### 配置Docker
 
 ```bash
+# 先安装docker
+yum install -y docker
 # 为docker添加insecure registry
 cat /etc/sysconfig/docker
 INSECURE_REGISTRY="--insecure-registry k8s.gcr.io --insecure-registry quay.io --insecure-registry hub.oepkgs.net"
@@ -145,7 +147,7 @@ wget --no-check-certificate https://github.com/kubernetes-sigs/cri-tools/release
 tar zxvf crictl-v1.19.0-linux-amd64.tar.gz -C /usr/local/bin
 # arm
 wget --no-check-certificate https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.20.0/crictl-v1.20.0-linux-arm64.tar.gz
-tar zxvf crictl-v1.19.0-linux-arm64.tar.gz -C /usr/local/bin
+tar zxvf crictl-v1.20.0-linux-arm64.tar.gz -C /usr/local/bin
 
 # cni 网络插件
 # x86
@@ -160,9 +162,9 @@ tar -zxvf cni-plugins-linux-arm64-v0.9.0.tgz -C /opt/cni/bin
 # 安装k8s组件
 # 注意：如果全部使用openEuler-21.03版本，可以支持直接yum安装
 # master节点执行
-yum install kubernetes-master kubernetes-kubeadm kubernetes-client
+yum install kubernetes-master kubernetes-kubeadm kubernetes-client kubernetes-kubelet
 # worker节点执行
-yum install kubernetes-node kubernetes-kubelet
+yum install kubernetes-node kubernetes-kubelet  kubernetes-kubeadm
 # 开机启动kubelet
 systemctl enable kubelet --now
 ```
