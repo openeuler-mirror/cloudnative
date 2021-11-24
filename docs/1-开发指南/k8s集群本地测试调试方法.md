@@ -144,7 +144,7 @@ systemctl daemon-reload && systemctl restart docker
 # cri-tools 网络工具
 # x86
 wget --no-check-certificate https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.20.0/crictl-v1.20.0-linux-amd64.tar.gz
-tar zxvf crictl-v1.19.0-linux-amd64.tar.gz -C /usr/local/bin
+tar zxvf crictl-v1.20.0-linux-amd64.tar.gz -C /usr/local/bin
 # arm
 wget --no-check-certificate https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.20.0/crictl-v1.20.0-linux-arm64.tar.gz
 tar zxvf crictl-v1.20.0-linux-arm64.tar.gz -C /usr/local/bin
@@ -162,7 +162,7 @@ tar -zxvf cni-plugins-linux-arm64-v0.9.0.tgz -C /opt/cni/bin
 # 安装k8s组件
 # 注意：如果全部使用openEuler-21.03版本，可以支持直接yum安装
 # master节点执行
-yum install kubernetes-master kubernetes-kubeadm kubernetes-client kubernetes-kubelet
+yum install kubernetes-master kubernetes-kubeadm kubernetes-client kubernetes-kubelet conntrack
 # worker节点执行
 yum install kubernetes-node kubernetes-kubelet  kubernetes-kubeadm
 # 开机启动kubelet
