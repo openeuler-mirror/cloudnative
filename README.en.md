@@ -13,6 +13,7 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 - [Documents](docs/README.md)
 
 # SIG Meetings
+
 - Every Tuesday from 4:00-5:30 p.m
 - Declare the issue by mail
 
@@ -52,31 +53,31 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 
 | Project | Version | State | Category |
 | ---- | ---- | ---- | ---- |
-| [iSulad](https://gitee.com/src-openeuler/iSulad)             | 2.0.9        | Introduced | Container Engine |
+| [iSulad](https://gitee.com/src-openeuler/iSulad)             | 2.0.14        | Introduced | Container Engine |
 | [lxc](https://gitee.com/src-openeuler/lxc)                   | 4.0.3        | Introduced | Runtime        |
-| [lcr](https://gitee.com/src-openeuler/lcr)                   | 2.0.5        | Introduced | Runtime     |
-| [clibcni](https://gitee.com/src-openeuler/clibcni)           | 2.0.4        | Introduced | Networking |
+| [lcr](https://gitee.com/src-openeuler/lcr)                   | 2.0.7        | Introduced | Runtime     |
+| [clibcni](https://gitee.com/src-openeuler/clibcni)           | 2.0.7        | Introduced | Networking |
 | [docker](https://gitee.com/src-openeuler/docker)             | 18.09.0      | Introduced | Container Engine |
 | [containerd](https://gitee.com/src-openeuler/containerd)     | 1.2.0        | Introduced | Runtime      |
 | [runc](https://gitee.com/src-openeuler/runc)                 | 1.0.0-rc3    | Introduced |   Runtime   |
 | [kata-containers](https://gitee.com/src-openeuler/kata-containers) | 2.1.1/1.11.1 | Introduced | Runtime |
 | [libnetwork](https://gitee.com/src-openeuler/libnetwork)     | 0.8.0-dev    | Introduced | Networking |
-| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 0.8.6        | Introduced | Networking |
-| [cri-o](https://gitee.com/src-openeuler/cri-o)               |              | Created | Runtime |
-| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       |              | Created | Container Engine   |
-| [gvisor](https://gitee.com/src-openeuler/gvisor)             |              | Created | Runtime     |
-| [crun](https://gitee.com/src-openeuler/crun)                 |              | Created | Runtime     |
-| [catatonit](https://gitee.com/src-openeuler/catatonit)     |        | Created | Runtime      |
+| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 1.0.1        | Introduced | Networking |
+| [cri-o](https://gitee.com/src-openeuler/cri-o)               | 1.23.2       | Introducing | Runtime |
+| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       | 1.22.0       | Introducing | Container Engine   |
+| [gvisor](https://gitee.com/src-openeuler/gvisor)             | 20220425.0   | Introducing | Runtime     |
+| [crun](https://gitee.com/src-openeuler/crun)                 | 1.4.3        | Introduced | Runtime     |
+| [catatonit](https://gitee.com/src-openeuler/catatonit)       | 0.1.7        | Introduced | Runtime      |
 
 
 ### App Definition & Development
 
 | Project | Version | State | Category |
 | ---------------------------------------------------------- | ----- | ------ | ------------ |
-| [isula-build](https://gitee.com/src-openeuler/isula-build) | 0.9.5 | Introduced | Application Definition & Image Build |
+| [isula-build](https://gitee.com/src-openeuler/isula-build) | 0.9.6 | Introduced | Application Definition & Image Build |
 | [operator-manager](https://gitee.com/openeuler/operator-manager)     |   2     | Incubating | Application Definition & Image Build      |
 | [docker-compose](https://gitee.com/src-openeuler/docker-compose) | 1.22.0 | Introduced | Application Definition & Image Build  |
-| [podman](https://gitee.com/src-openeuler/podman)             | 1.0.10       | Introduced | Application Definition & Image Build |
+| [podman](https://gitee.com/src-openeuler/podman)             | 0.10.1       | Introduced | Application Definition & Image Build |
 | [skopeo](https://gitee.com/src-openeuler/skopeo) | 1.1.0 | Introduced | Application Definition & Image Build |
 | [kubevirt](https://gitee.com/src-openeuler/kubevirt)     |        | Created | Application Definition & Image Build      |
 
@@ -90,19 +91,19 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 | [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | Incubating | Monitoring |
 | [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.21.0 | Incubating | Monitoring |
 | [node_exporter](https://gitee.com/src-openeuler/node_exporter) | 1.0.1  | Introduced | Monitoring |
-| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.2    | Introduced | Monitoring |
+| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.21    | Introduced | Monitoring |
 | [gluster_exporter](https://gitee.com/src-openeuler/gluster_exporter) | 0.2.7  | Incubating | Monitoring |
 | [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |        | Created | Monitoring |
 | [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |        | Created | Monitoring |
 | [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |        | Created | Monitoring |
-| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | Incubating | Monitoring |
+| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | Introduced | Monitoring |
 
 
 ### Installation & Deployment
 
 | Project | Version | State | Category |
 | ---- | ---- | ---- | ---- |
-| [eggo](https://gitee.com/openeuler/eggo)         | v1.0.0-alpha | Incubating | Kubernetes deployment by one command |
+| [eggo](https://gitee.com/openeuler/eggo)         | 0.9.4 | Introduced | Kubernetes deployment by one command |
 
 
 ### Provisioning
@@ -117,7 +118,7 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 | 项目                                         | 版本 | 状态   | 备注                                                    |
 | -------------------------------------------- | ---- | ------ | ------------------------------------------------------- |
 | [NestOS](https://gitee.com/openeuler/NestOS) |      | Incubating | A cloudify OS drivied from CoreOS |
-| [KubeOS](https://gitee.com/openeuler/KubeOS) |      | Incubating | A Kubernetes OS simplifies OS updating  |
+| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1| Introduced | A Kubernetes OS simplifies OS updating  |
 
 
 ### Dependent Component
@@ -126,11 +127,11 @@ CloudNative SIG is committed to providing a convenient and easy-to-use cloud nat
 | ---- | ---- | ---- | ---- |
 | [protobuf](https://gitee.com/src-openeuler/protobuf)         | 3.14.0 | Introduced | Dependent Component |
 | [iSulad-img](https://gitee.com/openeuler/iSulad-img)         | 2.0.1  | Introduced | iSulad 1.x Image Management Tool  |
-| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.31.1 | Introduced | Dependent Component |
+| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.34.1 | Introduced | Dependent Component |
 | [kata_integration](https://gitee.com/src-openeuler/kata_integration) | 1.0.0 | Introduced | Kata Build Project |
 | [docker-client-java](https://gitee.com/src-openeuler/docker-client-java) | 8.11.7 | Introduced | Dependent Component |
-| [container-selinux](https://gitee.com/src-openeuler/container-selinux) | 2.138 | Introduced | Docker Selinux Policy |
-| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 20-1 | Introduced | Dependent Component |
+| [container-selinux](https://gitee.com/src-openeuler/container-selinux) | 2.163 | Introduced | Docker Selinux Policy |
+| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 20 | Introduced | Dependent Component |
 | [libevhtp](https://gitee.com/src-openeuler/libevhtp)         | 1.2.18 | Introduced | Dependent Component |
 | [libcgroup](https://gitee.com/src-openeuler/libcgroup)       | 0.42.2 | Introduced | Dependent Component |
 
