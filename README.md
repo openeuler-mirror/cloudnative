@@ -53,31 +53,31 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 
 | 项目 | 版本 | 状态 | 类别 |
 | ---- | ---- | ---- | ---- |
-| [iSulad](https://gitee.com/src-openeuler/iSulad)             | 2.0.9        | 已落版本 | 容器引擎 |
-| [lxc](https://gitee.com/src-openeuler/lxc)                   | 4.0.3        | 已落版本 | 容器运行时        |
-| [lcr](https://gitee.com/src-openeuler/lcr)                   | 2.0.5        | 已落版本 | 容器运行时     |
-| [clibcni](https://gitee.com/src-openeuler/clibcni)           | 2.0.4        | 已落版本 | iSulad网络组件 |
-| [docker](https://gitee.com/src-openeuler/docker)             | 18.09.0      | 已落版本 | 容器引擎 |
-| [containerd](https://gitee.com/src-openeuler/containerd)     | 1.2.0        | 已落版本 | 容器运行时      |
-| [runc](https://gitee.com/src-openeuler/runc)                 | 1.0.0-rc3    | 已落版本 |   容器运行时   |
+| [iSulad](https://gitee.com/src-openeuler/iSulad)             | 2.0.14       | 已落版本 | 容器引擎     |
+| [lxc](https://gitee.com/src-openeuler/lxc)                   | 4.0.3        | 已落版本 | 容器运行时   |
+| [lcr](https://gitee.com/src-openeuler/lcr)                   | 2.0.7        | 已落版本 | 容器运行时   |
+| [clibcni](https://gitee.com/src-openeuler/clibcni)           | 2.0.7        | 已落版本 | iSulad网络组件 |
+| [docker](https://gitee.com/src-openeuler/docker)             | 18.09.0      | 已落版本 | 容器引擎     |
+| [containerd](https://gitee.com/src-openeuler/containerd)     | 1.2.0        | 已落版本 | 容器运行时   |
+| [runc](https://gitee.com/src-openeuler/runc)                 | 1.0.0-rc3    | 已落版本 | 容器运行时   |
 | [kata-containers](https://gitee.com/src-openeuler/kata-containers) | 2.1.1/1.11.1 | 已落版本 | 容器运行时 |
 | [libnetwork](https://gitee.com/src-openeuler/libnetwork)     | 0.8.0-dev    | 已落版本 | Docker网络组件 |
-| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 0.8.6        | 已落版本 | CNI容器网络 |
-| [cri-o](https://gitee.com/src-openeuler/cri-o)               |              | 已建仓 | 容器运行时 |
-| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       |              | 已建仓 | 引擎CRI工具   |
-| [gvisor](https://gitee.com/src-openeuler/gvisor)             |              | 已建仓 | 容器运行时     |
-| [crun](https://gitee.com/src-openeuler/crun)                 |              | 已建仓 | 容器运行时     |
-| [catatonit](https://gitee.com/src-openeuler/catatonit)     |        | 已建仓 | 容器运行时      |
+| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 1.0.1  | 已落版本 | CNI容器网络 |
+| [cri-o](https://gitee.com/src-openeuler/cri-o)               | 1.23.2       | 引入中 | 容器运行时     |
+| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       | 1.22.0       | 引入中 | 引擎CRI工具    |
+| [gvisor](https://gitee.com/src-openeuler/gvisor)             | 20220425.0   | 引入中 | 容器运行时     |
+| [crun](https://gitee.com/src-openeuler/crun)                 | 1.4.3        | 已落版本 | 容器运行时     |
+| [catatonit](https://gitee.com/src-openeuler/catatonit)       | 0.1.7        | 已落版本 | 容器运行时      |
 
 
 ### 应用定义&开发
 
 | 项目                                                       | 版本  | 状态   | 类别       |
 | ---------------------------------------------------------- | ----- | ------ | ------------ |
-| [isula-build](https://gitee.com/src-openeuler/isula-build) | 0.9.5 | 已落版本 | 应用程序定义&镜像构建 |
+| [isula-build](https://gitee.com/src-openeuler/isula-build) | 0.9.6 | 已落版本 | 应用程序定义&镜像构建 |
 | [operator-manager](https://gitee.com/openeuler/operator-manager)     |   2     | 孵化中 | 应用程序定义&镜像构建      |
 | [docker-compose](https://gitee.com/src-openeuler/docker-compose) | 1.22.0 | 已落版本 | 应用程序定义&镜像构建  |
-| [podman](https://gitee.com/src-openeuler/podman)             | 1.0.10       | 已落版本 | 应用程序定义&镜像构建 |
+| [podman](https://gitee.com/src-openeuler/podman)             | 0.10.1       | 已落版本 | 应用程序定义&镜像构建 |
 | [skopeo](https://gitee.com/src-openeuler/skopeo) | 1.1.0 | 已落版本 | 应用程序定义&镜像构建 |
 | [kubevirt](https://gitee.com/src-openeuler/kubevirt)     |        | 已建仓 | 应用程序定义&镜像构建      |
 
@@ -91,19 +91,19 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 | [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | 引入中 | 监控分析跟踪 |
 | [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.21.0 | 引入中 | 监控分析跟踪 |
 | [node_exporter](https://gitee.com/src-openeuler/node_exporter) | 1.0.1  | 已落版本 | 监控分析跟踪 |
-| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.2    | 已落版本 | 监控分析跟踪 |
+| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.21    | 已落版本 | 监控分析跟踪 |
 | [gluster_exporter](https://gitee.com/src-openeuler/gluster_exporter) | 0.2.7  | 引入中 | 监控分析跟踪 |
 | [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |        | 已建仓 | 监控分析跟踪 |
 | [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |        | 已建仓 | 监控分析跟踪 |
 | [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |        | 已建仓 | 监控分析跟踪 |
-| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | 引入中 | 监控分析跟踪 |
+| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | 已落版本 | 监控分析跟踪 |
 
 
 ### 安装部署
 
 | 项目 | 版本 | 状态 | 类别 |
 | ---- | ---- | ---- | ---- |
-| [eggo](https://gitee.com/openeuler/eggo)         | v1.0.0-alpha | 孵化中 | Kubernetes集群一键部署 |
+| [eggo](https://gitee.com/openeuler/eggo)         | 0.9.4 | 已落版本 | Kubernetes集群一键部署 |
 
 
 ### 服务提供
@@ -117,8 +117,8 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 
 | 项目                                         | 版本 | 状态   | 备注                                                    |
 | -------------------------------------------- | ---- | ------ | ------------------------------------------------------- |
-| [NestOS](https://gitee.com/openeuler/NestOS) |      | 孵化中 | 从CoreOS衍生出来的云底座操作系统 |
-| [KubeOS](https://gitee.com/openeuler/KubeOS) |      | 孵化中 | 由K8S进行生命周期管理的云原生OS  |
+| [NestOS](https://gitee.com/openeuler/NestOS) |       | 孵化中 | 从Fedora CoreOS衍生出来的云底座操作系统 |
+| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | 已落版本 | 由K8S进行生命周期管理的云原生OS  |
 
 
 ### 依赖组件
@@ -127,11 +127,11 @@ CloudNative SIG致力于为广大用户、开发者、爱好者提供便捷、�
 | ---- | ---- | ---- | ---- |
 | [protobuf](https://gitee.com/src-openeuler/protobuf)         | 3.14.0 | 已落版本 | 依赖组件 |
 | [iSulad-img](https://gitee.com/openeuler/iSulad-img)         | 2.0.1  | 已落版本 | iSulad 1.x 镜像管理工具 |
-| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.31.1 | 已落版本 | 依赖组件 |
+| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.34.1 | 已落版本 | 依赖组件 |
 | [kata_integration](https://gitee.com/src-openeuler/kata_integration) | 1.0.0 | 已落版本 | kata构建工程 |
 | [docker-client-java](https://gitee.com/src-openeuler/docker-client-java) | 8.11.7 | 已落版本 | 依赖组件 |
-| [container-selinux](https://gitee.com/src-openeuler/container-selinux) | 2.138 | 已落版本 | docker配套selinux策略 |
-| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 20-1 | 已落版本 | 依赖组件 |
+| [container-selinux](https://gitee.com/src-openeuler/container-selinux) | 2.163 | 已落版本 | docker配套selinux策略 |
+| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 20 | 已落版本 | 依赖组件 |
 | [libevhtp](https://gitee.com/src-openeuler/libevhtp)         | 1.2.18 | 已落版本 | 依赖组件 |
 | [libcgroup](https://gitee.com/src-openeuler/libcgroup)       | 0.42.2 | 已落版本 | 依赖组件 |
 
