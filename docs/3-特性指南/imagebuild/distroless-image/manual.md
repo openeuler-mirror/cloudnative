@@ -1,7 +1,7 @@
 # openeuler/distroless镜像脚本构建
 ## 一、openeuler/distroless：static镜像
 
-构建`openeuler/distroless：static`的`rootfs`包见`staticbuild.sh`脚本，该镜像只安装四个包，静态编译(不需要`glibc`支持)的应用可以使用该镜像进行构建。
+构建`openeuler/distroless：static`的`rootfs`包见`static/static_image_build.sh`脚本，该镜像只安装四个包，静态编译(不需要`glibc`支持)的应用可以使用该镜像进行构建。
 
 ```
 setup
@@ -14,7 +14,7 @@ ca-certificates
 
 ## 二、openeuler/distroless：base镜像
 
-构建`openeuler/distroless：base`的`rootfs`包见`basebuild.sh`脚本，该镜像在`static`镜像的基础，另外装了3个包，大多数应用可以使用该镜像进行构建。
+构建`openeuler/distroless：base`的`rootfs`包见`base/basic_image_build.sh`脚本，该镜像在`static`镜像的基础，另外装了3个包，大多数应用可以使用该镜像进行构建。
 
 ```
 glibc
@@ -22,7 +22,34 @@ openssl-libs
 openssl
 ```
 
-## 三、使用方法
+## 三、openeuler/distroless：debug镜像
+
+构建`openeuler/distroless：debug`的`rootfs`包见`debug/debug_image_build.sh`脚本，该镜像在`base`镜像的基础，增加了`busybox`的命令工具。
+
+## 四、openeuler/distroless：python3镜像
+构建`openeuler/distroless：python3`的`rootfs`包见`python3/python3_image_build.sh`脚本，该镜像在`base`镜像的基础，增加了`python3`和它的依赖。
+```
+libxcrypt
+python3
+glibc-common
+zlib
+sqlite
+readline
+xz-libs
+ncurses-libs
+libffi
+bzip2
+expat
+libnsl2
+libtirpc
+e2fsprogs
+krb5-libs
+keyutils-libs
+libselinux
+pcre2
+```
+
+## 五、使用方法
 
 用户可以运行脚本
 

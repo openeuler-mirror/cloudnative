@@ -83,10 +83,14 @@ EOF
 
 # remove packages dependencies
 [ -d "${buildroot:?}"/var/lib/dnf ] && rm -rf "${buildroot:?}"/var/lib/dnf/*
-[ -d "${buildroot:?}"/var/lib/rpm ] && rm -rf "${buildroot:?}"/var/lib/rpm/__db.*
+[ -d "${buildroot:?}"/var/lib/rpm ] && rm -rf "${buildroot:?}"/var/lib/rpm/*
 
 # remove boot
 rm -rf "${buildroot:?}"/boot
+
+# only keep en_US locale
+cd "${buildroot:?}"/usr/lib/locale;rm -rf $(ls | grep -v en_US | grep -vw C.utf8 )
+rm -rf "${buildroot:?}"/usr/share/locale/*
 
 # remove man pages and documentation
 rm -rf "${buildroot:?}"/usr/share/{man,doc,info,mime}
@@ -96,9 +100,12 @@ rm -rf "${buildroot:?}"/etc/ld.so.cache
 [ -d "${buildroot:?}"/var/cache/ldconfig ] && rm -rf "${buildroot:?}"/var/cache/ldconfig/*
 [ -d "${buildroot:?}"/var/log ] && rm -rf "${buildroot:?}"/var/log/*.log
 
+# keep ca-certificates bep
+rm -rf /etc/pki/ca-trust/extracted/java/cacerts /etc/pki/java/cacerts
+
 # remove rpm file installed
-rm -vf *.rpm
+rm -vf $current_dir/*.rpm
 
 # compress it
 OUTPUTIMG="$imagename".img.xz
-tar -J -C "$buildroot" -c . -f "$OUTPUTIMG"
+tar -J -C "$buildroot" -c . -f $current_dir/"$OUTPUTIMG"
