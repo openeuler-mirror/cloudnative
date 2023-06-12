@@ -46,8 +46,8 @@ enabled=1
 gpgcheck=0
 EOF
 
-# install yum procps-ng gdb-gdbserver rootfiles tar vim-minimal openEuler-release
-dnf -y --installroot="$buildroot" --setopt=install_weak_deps=False --best --nodocs install yum procps-ng gdb-gdbserver rootfiles tar vim-minimal openEuler-release
+# install yum procps-ng rootfiles tar vim-minimal openEuler-release
+dnf -y --installroot="$buildroot" --setopt=install_weak_deps=False --best --nodocs install yum procps-ng rootfiles tar vim-minimal openEuler-release
 dnf -y --installroot="$buildroot" clean all
 
 # remove packages dependencies
