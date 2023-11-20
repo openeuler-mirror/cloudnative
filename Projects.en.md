@@ -65,7 +65,7 @@ The project list is categorized as follows:
 | [nestos-installer](https://gitee.com/openeuler/nestos-installer) |    0   | Introduced| NestOS components | NA |
 | [nestos-kernel](https://gitee.com/openeuler/nestos-kernel) |    0   | Introduced| NestOS components | NA |
 | [nestos-website](https://gitee.com/openeuler/nestos-website) |    0   | Introduced| NestOS components | NA |
-| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | Introduced| A Kubernetes OS simplifies OS updating  | NA |
+| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | Introduced| A Kubernetes OS simplifies OS updating  |  [@li-yuanrong](https://gitee.com/li-yuanrong) |
 
 ### Dependent Component
 

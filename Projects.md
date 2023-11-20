@@ -64,7 +64,7 @@
 | [nestos-installer](https://gitee.com/openeuler/nestos-installer) |    0   | 已落版本 | NestOS组件 | NA |
 | [nestos-kernel](https://gitee.com/openeuler/nestos-kernel) |    0   | 已落版本 | NestOS组件 | NA |
 | [nestos-website](https://gitee.com/openeuler/nestos-website) |    0   | 已落版本 | NestOS组件 | NA |
-| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | 已落版本 | 由K8s进行生命周期管理的云原生OS  | NA |
+| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | 已落版本 | 由K8s进行生命周期管理的云原生OS  |  [@li-yuanrong](https://gitee.com/li-yuanrong) |
 
 ### 依赖组件
 
