@@ -11,17 +11,17 @@ The project list is categorized as follows:
 | Project | Version | State | Category | Committer |
 | ---------------------------------------------------------- | ----- | ------ | ------------ | ---- |
 | [paws](https://gitee.com/openeuler/paws)     |   0     | Incubating | Performance analysis     | NA |
-| [rubik](https://gitee.com/openeuler/rubik)     |   0     | Incubating | Hybrid deployment     | NA |
+| [rubik](https://gitee.com/openeuler/rubik)     |   2.0.0     | Introduced | Hybrid deployment     | NA |
 
 ### Container Runtime
 
 | Project | Version | State | Category | Committer |
 | ---- | ---- | ---- | ---- | ---- |
-| [iSulad](https://gitee.com/openeuler/iSulad)             | 2.0.14       | Introduced| Container engine     | NA |
-| [lcr](https://gitee.com/openeuler/lcr)                   | 2.0.7        | Introduced| Container runtime   | NA |
-| [clibcni](https://gitee.com/openeuler/clibcni)           | 2.0.7        | Introduced| iSulad network components | NA |
+| [iSulad](https://gitee.com/openeuler/iSulad)             | 2.1.4       | Introduced| Container engine     | NA |
+| [lcr](https://gitee.com/openeuler/lcr)                   | 2.1.3        | Introduced| Container runtime   | NA |
+| [clibcni](https://gitee.com/openeuler/clibcni)           | 2.1.0        | Introduced| iSulad network components | NA |
 | [isula-build](https://gitee.com/openeuler/isula-build) | 0.9.6 | Introduced| Application Definition & Image Build | NA |
-| [WasmEngine](https://gitee.com/openeuler/WasmEngine) | 0.9.6 | Introduced| Container runtime | NA |
+| [WasmEngine](https://gitee.com/openeuler/WasmEngine) | 0.1.2 | Introduced| Container runtime | NA |
 
 ### App Definition & Development
 
@@ -36,11 +36,11 @@ The project list is categorized as follows:
 
 | Project | Version | State | Category | Committer |
 | ---------------------------------------------------------- | ----- | ------ | ------------ | ---- |
-| [Cpds](https://gitee.com/openeuler/Cpds)     |   0     | Incubating | Analysis    | NA |
-| [cpds-agent](https://gitee.com/openeuler/cpds-agent)     |   0     | Incubating | Cpds components     | NA |
-| [cpds-analyzer](https://gitee.com/openeuler/cpds-analyzer)     |   0     | Incubating | Cpds components     | NA |
-| [cpds-dashboard](https://gitee.com/openeuler/cpds-dashboard)     |   0     | Incubating | Cpds components     | NA |
-| [cpds-detector](https://gitee.com/openeuler/cpds-detector)     |   0     | Incubating | Cpds components     | NA |
+| [Cpds](https://gitee.com/openeuler/Cpds)     |   1.0     | Introduced | Analysis    | NA |
+| [cpds-agent](https://gitee.com/openeuler/cpds-agent)     |   1.0     | Introduced | Cpds components     | NA |
+| [cpds-analyzer](https://gitee.com/openeuler/cpds-analyzer)     |   1.0     | Introduced | Cpds components     | NA |
+| [cpds-dashboard](https://gitee.com/openeuler/cpds-dashboard)     |   1.0     | Introduced | Cpds components     | NA |
+| [cpds-detector](https://gitee.com/openeuler/cpds-detector)     |   1.0     | Introduced | Cpds components     | NA |
 
 ### Installation & Deployment
 
@@ -62,10 +62,10 @@ The project list is categorized as follows:
 | [NestOS](https://gitee.com/openeuler/NestOS) |    0   | Introduced| A cloudify OS drivied from CoreOS | NA |
 | [nestos-assembler](https://gitee.com/openeuler/nestos-assembler) |    0   | Introduced| NestOS components | NA |
 | [nestos-config](https://gitee.com/openeuler/nestos-config) |    0   | Introduced| NestOS components | NA |
-| [nestos-installer](https://gitee.com/openeuler/nestos-installer) |    0   | Introduced| NestOS components | NA |
+| [nestos-installer](https://gitee.com/openeuler/nestos-installer) |    0.16.0   | Introduced| NestOS components | NA |
 | [nestos-kernel](https://gitee.com/openeuler/nestos-kernel) |    0   | Introduced| NestOS components | NA |
 | [nestos-website](https://gitee.com/openeuler/nestos-website) |    0   | Introduced| NestOS components | NA |
-| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.1 | Introduced| A Kubernetes OS simplifies OS updating  |  [@li-yuanrong](https://gitee.com/li-yuanrong) |
+| [KubeOS](https://gitee.com/openeuler/KubeOS) | 1.0.3 | Introduced| A Kubernetes OS simplifies OS updating  |  [@li-yuanrong](https://gitee.com/li-yuanrong) |
 
 ### Dependent Component
 
@@ -83,7 +83,7 @@ The project list is categorized as follows:
 
 | Project | Version | State | Category | Committer |
 | -------------------------------------------------------- | ------ | -------- | ------------- | ---- |
-| [kubernetes](https://gitee.com/src-openeuler/kubernetes) | 1.20.2 | Introduced| Scheduling & Orchestration     | NA |
+| [kubernetes](https://gitee.com/src-openeuler/kubernetes) | 1.25.3 | Introduced| Scheduling & Orchestration     | NA |
 | [etcd](https://gitee.com/src-openeuler/etcd)             | 3.4.14 | Introduced| Coordination & Service Discovery | NA |
 | [coredns](https://gitee.com/src-openeuler/coredns)       | 1.7.0  | Introduced| Coordination & Service Discovery | NA |
 
@@ -93,18 +93,18 @@ The project list is categorized as follows:
 | Project | Version | State | Category | Committer |
 | ---- | ---- | ---- | ---- | ---- |
 | [kuasar](https://gitee.com/src-openeuler/kuasar)         | 0.1.0        | Introduced| Unified Container runtime   | NA |
-| [lxc](https://gitee.com/src-openeuler/lxc)                   | 4.0.3        | Introduced| Container runtime   | NA |
+| [lxc](https://gitee.com/src-openeuler/lxc)                   | 5.0.2        | Introduced| Container runtime   | NA |
 | [docker](https://gitee.com/src-openeuler/docker)             | 18.09.0      | Introduced| Container engine     | [@zhangsong234](https://gitee.com/zhangsong234) |
 | [moby](https://gitee.com/src-openeuler/moby)             | 20.10.24      | Introduced| Container engine     | NA |
-| [containerd](https://gitee.com/src-openeuler/containerd)     | 1.2.0        | Introduced| Container runtime   | [@zhangsong234](https://gitee.com/zhangsong234) |
-| [runc](https://gitee.com/src-openeuler/runc)                 | 1.0.0-rc3    | Introduced| Container runtime   | [@zhangsong234](https://gitee.com/zhangsong234) |
-| [kata-containers](https://gitee.com/src-openeuler/kata-containers) | 2.1.1/1.11.1 | Introduced| Container runtime | NA |
+| [containerd](https://gitee.com/src-openeuler/containerd)     | 1.6.22        | Introduced| Container runtime   | [@zhangsong234](https://gitee.com/zhangsong234) |
+| [runc](https://gitee.com/src-openeuler/runc)                 | 1.1.8    | Introduced| Container runtime   | [@zhangsong234](https://gitee.com/zhangsong234) |
+| [kata-containers](https://gitee.com/src-openeuler/kata-containers) | 2.1.0/1.11.1 | Introduced| Container runtime | NA |
 | [libnetwork](https://gitee.com/src-openeuler/libnetwork)     | 0.8.0-dev    | Introduced| Docker network components | NA |
-| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 1.0.1  | Introduced| CNI | NA |
-| [cri-o](https://gitee.com/src-openeuler/cri-o)               | 1.23.2       | Introducing | Container runtime     | NA |
-| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       | 1.22.0       | Introducing | CRI tools    | NA |
+| [containernetworking-plugins](https://gitee.com/src-openeuler/containernetworking-plugins) | 1.2.0  | Introduced| CNI | NA |
+| [cri-o](https://gitee.com/src-openeuler/cri-o)               | 1.23.2       | Introduced | Container runtime     | NA |
+| [cri-tools](https://gitee.com/src-openeuler/cri-tools)       | 1.24.2       | Introduced | CRI tools    | NA |
 | [gvisor](https://gitee.com/src-openeuler/gvisor)             | 20220425.0   | Introducing | Container runtime     | NA |
-| [crun](https://gitee.com/src-openeuler/crun)                 | 1.4.3        | Introduced| Container runtime     | NA |
+| [crun](https://gitee.com/src-openeuler/crun)                 | 1.8.1        | Introduced| Container runtime     | NA |
 | [catatonit](https://gitee.com/src-openeuler/catatonit)       | 0.1.7        | Introduced| Container runtime      | NA |
 
 
@@ -114,31 +114,31 @@ The project list is categorized as follows:
 | ---------------------------------------------------------- | ----- | ------ | ------------ | ---- |
 | [operator-manager](https://gitee.com/openeuler/operator-manager)     |   2     | Incubating | Application Definition & Image Build      | NA |
 | [docker-compose](https://gitee.com/src-openeuler/docker-compose) | 1.22.0 | Introduced| Application Definition & Image Build  | NA |
-| [podman](https://gitee.com/src-openeuler/podman)             | 0.10.1       | Introduced| Application Definition & Image Build | NA |
-| [skopeo](https://gitee.com/src-openeuler/skopeo) | 1.1.0 | Introduced| Application Definition & Image Build | NA |
-| [kubevirt](https://gitee.com/src-openeuler/kubevirt)     |        | Created | Application Definition & Image Build      | NA |
-| [buildah](https://gitee.com/src-openeuler/buildah)     |  1.26.1   | Created | Image build tool   | NA |
-| [umoci](https://gitee.com/src-openeuler/umoci)     |  0.4.7  | Created | Image management tool     | NA |
+| [podman](https://gitee.com/src-openeuler/podman)             | 4.5.1       | Introduced| Application Definition & Image Build | NA |
+| [skopeo](https://gitee.com/src-openeuler/skopeo) | 1.8.0 | Introduced| Application Definition & Image Build | NA |
+| [kubevirt](https://gitee.com/src-openeuler/kubevirt)     |    0.54.0    | Introducing | Application Definition & Image Build      | NA |
+| [buildah](https://gitee.com/src-openeuler/buildah)     |  1.26.1   | Introduced | Image build tool   | NA |
+| [umoci](https://gitee.com/src-openeuler/umoci)     |  0.4.7  | Introduced | Image management tool     | NA |
 
 
 ### Observability & Analysis
 
 | Project | Version | State | Category | Committer |
 | ---- | ---- | ---- | ---- | ---- |
-| [prometheus](https://gitee.com/src-openeuler/prometheus)     | 2.20.0 | Introduced| Monitoring | NA |
-| [promu](https://gitee.com/src-openeuler/promu)               | 0.7.0  | Introducing | Monitoring | NA |
-| [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | Introducing | Monitoring | NA |
-| [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.21.0 | Introducing | Monitoring | NA |
+| [prometheus](https://gitee.com/src-openeuler/prometheus)     | 2.46.0 | Introduced| Monitoring | NA |
+| [promu](https://gitee.com/src-openeuler/promu)               | 0.15.0  | Introduced | Monitoring | NA |
+| [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | Introduced | Monitoring | NA |
+| [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.26.0 | Introduced | Monitoring | NA |
 | [node_exporter](https://gitee.com/src-openeuler/node_exporter) | 1.0.1  | Introduced| Monitoring | NA |
-| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.21    | Introduced| Monitoring | NA |
+| [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.25    | Introduced| Monitoring | NA |
 | [gluster_exporter](https://gitee.com/src-openeuler/gluster_exporter) | 0.2.7  | Introducing | Monitoring | NA |
-| [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |        | Created | Monitoring | NA |
-| [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |        | Created | Monitoring | NA |
-| [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |        | Created | Monitoring | NA |
+| [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |    0.15.0    | Introducing | Monitoring | NA |
+| [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |    0.11.5    | Introducing | Monitoring | NA |
+| [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |    0.14.2    | Introducing | Monitoring | NA |
 | [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | Introduced| Monitoring | NA |
-| [blackbox_exporter](https://gitee.com/src-openeuler/blackbox_exporter) |  0.23.0  | Created | Monitoring | NA |
-| [mysqld_exporter](https://gitee.com/src-openeuler/mysqld_exporter) |  0  | Introducing | Monitoring | NA |
-| [redis_exporter](https://gitee.com/src-openeuler/redis_exporter) |  1.50.0  | Introducing | Monitoring | NA |
+| [blackbox_exporter](https://gitee.com/src-openeuler/blackbox_exporter) |  0.24.0  | Introduced | Monitoring | NA |
+| [mysqld_exporter](https://gitee.com/src-openeuler/mysqld_exporter) |  0.15.1  | Introducing | Monitoring | NA |
+| [redis_exporter](https://gitee.com/src-openeuler/redis_exporter) |  1.56.0  | Introducing | Monitoring | NA |
 
 
 ### Installation & Deployment
@@ -148,8 +148,8 @@ The project list is categorized as follows:
 
 | Project | Version | State | Category | Committer |
 | ---- | ---- | ---- | ---- | ---- |
-| [harbor](https://gitee.com/src-openeuler/harbor) |       | Created | Container Registry | NA |
-| [containers-common](https://gitee.com/src-openeuler/containers-common)     |        | Created | Automation & Configuration | NA |
+| [harbor](https://gitee.com/src-openeuler/harbor) |    0.4.1   | Introducing | Container Registry | NA |
+| [containers-common](https://gitee.com/src-openeuler/containers-common)     |    1    | Introduced | Automation & Configuration | NA |
 | [awscli](https://gitee.com/src-openeuler/awscli) |       | Introducing | awscli provides a unified command line interface to Amazon Web Services | NA |
 
 ### ContainerOS
@@ -159,13 +159,13 @@ The project list is categorized as follows:
 
 | Project | Version | State | Category | Committer |
 | ---- | ---- | ---- | ---- | ---- |
-| [protobuf](https://gitee.com/src-openeuler/protobuf)         | 3.14.0 | Introduced| iSulad dependencies | NA |
-| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.34.1 | Introduced| Container image dependencies | NA |
+| [protobuf](https://gitee.com/src-openeuler/protobuf)         | 3.19.6 | Introduced| iSulad dependencies | NA |
+| [busybox](https://gitee.com/src-openeuler/busybox)           | 1.36.1 | Introduced| Container image dependencies | NA |
 | [docker-client-java](https://gitee.com/src-openeuler/docker-client-java) | 8.11.7 | Introduced| Dependent Component | NA |
 | [container-selinux](https://gitee.com/src-openeuler/container-selinux) | 2.163 | Introduced| Docker Selinux Policy | NA |
-| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 20 | Introduced| Dependent Component | NA |
+| [jboss-parent](https://gitee.com/src-openeuler/jboss-parent) | 39 | Introduced| Dependent Component | NA |
 | [libevhtp](https://gitee.com/src-openeuler/libevhtp)         | 1.2.18 | Introduced| iSulad dependencies | NA |
-| [libcgroup](https://gitee.com/src-openeuler/libcgroup)       | 0.42.2 | Introduced| Container dependencies | NA |
+| [libcgroup](https://gitee.com/src-openeuler/libcgroup)       | 3.1.0 | Introduced| Container dependencies | NA |
 | [afterburn](https://gitee.com/src-openeuler/afterburn)       | 5.4.2 | Introduced| NestOS dependencies | NA |
 | [butane](https://gitee.com/src-openeuler/butane)       | 0.14.0 | Introduced| NestOS dependencies | NA |
 | [console-login-helper-messages](https://gitee.com/src-openeuler/console-login-helper-messages)       | 0.21.3 | Introduced| NestOS dependencies | NA |
@@ -185,8 +185,8 @@ The project list is categorized as follows:
 | [zram-generator](https://gitee.com/src-openeuler/zram-generator)       | 1.1.2 | Introduced| NestOS dependencies | NA |
 | [bats](https://gitee.com/src-openeuler/bats)       | 1.9.0 | Introduced| bash dependency compatibility testing framework| NA |
 | [calico](https://gitee.com/src-openeuler/calico)       | 0 | Introducing | K8s CNI plugin | NA |
-| [parallel](https://gitee.com/src-openeuler/parallel)       | 20230622 | Introducing | Parallel computing tools | NA |
-| [python-kubernetes](https://gitee.com/src-openeuler/python-kubernetes)       | 25.3.0 | Introducing | K8s python client | NA |
+| [parallel](https://gitee.com/src-openeuler/parallel)       | 20230622 | Introduced | Parallel computing tools | NA |
+| [python-kubernetes](https://gitee.com/src-openeuler/python-kubernetes)       | 25.3.0 | Introduced | K8s python client | NA |
 | [ShellCheck](https://gitee.com/src-openeuler/ShellCheck)       | 0 | Introducing | Formatting tools | NA |
 
 ### Note
