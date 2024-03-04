@@ -2,7 +2,7 @@
 set -e
 
 current_dir=$(realpath "$(dirname "$0")")
-repo_array=("20.03-LTS" "20.03-LTS-SP1" "20.03-LTS-SP2" "20.03-LTS-SP3" "20.09" "21.03" "21.09" "22.03-LTS" "22.03-LTS-SP1" "22.09")
+repo_array=("20.03-LTS" "20.03-LTS-SP1" "20.03-LTS-SP2" "20.03-LTS-SP3" "20.03-LTS-SP4" "20.09" "21.03" "21.09" "22.03-LTS" "22.03-LTS-SP1" "22.03-LTS-SP2" "22.03-LTS-SP3" "22.09" "23.03" "23.09")
 if [ $# -ne 3 ]
 then
         echo Usage: basic_image_build.sh version arch imagename
