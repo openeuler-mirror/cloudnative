@@ -83,7 +83,7 @@
 | 项目                                                     | 版本   | 状态     | 类别          | committer |
 | -------------------------------------------------------- | ------ | -------- | ------------- | ---- |
 | [kubernetes](https://gitee.com/src-openeuler/kubernetes) | 1.25.3 | 已落版本 | 调度&编排     | NA |
-| [etcd](https://gitee.com/src-openeuler/etcd)             | 3.4.14 | 已落版本 | 协调&服务发现 | NA |
+| [etcd](https://gitee.com/src-openeuler/etcd)             | 3.4.14 | 已落版本 | 协调&服务发现 | [@jxy_git](https://gitee.com/jxy_git) |
 | [coredns](https://gitee.com/src-openeuler/coredns)       | 1.7.0  | 已落版本 | 协调&服务发现 | NA |
 
 
@@ -124,20 +124,20 @@
 
 | 项目 | 版本 | 状态 | 类别 | committer |
 | ---- | ---- | ---- | ---- | ---- |
-| [prometheus](https://gitee.com/src-openeuler/prometheus)     | 2.46.0 | 已落版本 | 监控分析跟踪 | NA |
-| [promu](https://gitee.com/src-openeuler/promu)               | 0.15.0  | 已落版本 | 监控分析跟踪 | NA |
-| [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | 已落版本 | 监控分析跟踪 | NA |
-| [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.26.0 | 已落版本 | 监控分析跟踪 | NA |
-| [node_exporter](https://gitee.com/src-openeuler/node_exporter) | 1.0.1  | 已落版本 | 监控分析跟踪 | NA |
+| [prometheus](https://gitee.com/src-openeuler/prometheus)     | 2.53.3 | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [promu](https://gitee.com/src-openeuler/promu)               | 0.17.0  | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [cadvisor](https://gitee.com/src-openeuler/cadvisor)         | 0.37.0 | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [alertmanager](https://gitee.com/src-openeuler/alertmanager) | 0.27.0 | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [node_exporter](https://gitee.com/src-openeuler/node_exporter) | 1.8.1  | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
 | [virt-what](https://gitee.com/src-openeuler/virt-what)       | 1.25    | 已落版本 | 监控分析跟踪 | NA |
-| [gluster_exporter](https://gitee.com/src-openeuler/gluster_exporter) | 0.2.7  | 引入中 | 监控分析跟踪 | NA |
-| [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |    0.15.0    | 引入中 | 监控分析跟踪 | NA |
-| [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |    0.11.5    | 引入中 | 监控分析跟踪 | NA |
-| [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |    0.14.2    | 引入中 | 监控分析跟踪 | NA |
-| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.4.1  | 已落版本 | 监控分析跟踪 | NA |
-| [blackbox_exporter](https://gitee.com/src-openeuler/blackbox_exporter) |  0.24.0  | 已落版本 | 监控分析跟踪 | NA |
-| [mysqld_exporter](https://gitee.com/src-openeuler/mysqld_exporter) |  0.15.1  | 引入中 | 监控分析跟踪 | NA |
-| [redis_exporter](https://gitee.com/src-openeuler/redis_exporter) |  1.56.0  | 引入中 | 监控分析跟踪 | NA |
+| [gluster_exporter](https://gitee.com/src-openeuler/gluster_exporter) | 0.2.7  | 引入中 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [haproxy_exporter](https://gitee.com/src-openeuler/haproxy_exporter) |    0.15.0    | 引入中 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [influxdb_exporter](https://gitee.com/src-openeuler/influxdb_exporter) |    0.11.5    | 引入中 | 监控分析跟踪 |[@jxy_git](https://gitee.com/jxy_git)|
+| [memcached_exporter](https://gitee.com/src-openeuler/memcached_exporter) |    0.14.4    | 引入中 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [pushgateway](https://gitee.com/src-openeuler/pushgateway)               | 1.9.0  | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [blackbox_exporter](https://gitee.com/src-openeuler/blackbox_exporter) |  0.25.0  | 已落版本 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [mysqld_exporter](https://gitee.com/src-openeuler/mysqld_exporter) |  0.15.1  | 引入中 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
+| [redis_exporter](https://gitee.com/src-openeuler/redis_exporter) |  1.66.0  | 引入中 | 监控分析跟踪 | [@jxy_git](https://gitee.com/jxy_git) |
 
 
 ### 安装部署
